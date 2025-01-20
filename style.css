@@ -1,0 +1,12 @@
+body {
+    /* Set line height to 1.5 times the font size
+         and use the OS’s UI font as the website font
+       */
+    font: 100%/1.5 system-ui;
+    max-width: 80ch; 
+    /*90ch, 50rem, 45em*/
+
+    margin-inline: auto;
+    padding: 2ch;
+    accent-color: var( --color-accent);
+  }
