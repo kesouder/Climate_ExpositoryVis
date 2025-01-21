@@ -10,3 +10,7 @@ body {
     padding: 2ch;
     accent-color: var( --color-accent);
   }
+
+  h1{
+    font-family: 'Courier New', Courier, monospace;
+  }

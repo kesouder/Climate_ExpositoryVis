@@ -5,9 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 1 </title>
     <link rel="stylesheet" href="style.css"/>
+
+    <style>
+        .image-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* 2 columns */
+            gap: 10px; /* Space between images */
+            max-width: 1400px; /* Adjust as needed */
+            margin: 0 auto; /* Center the grid */
+            object-fit: cover;
+            width: 100%;
+        }
+        .image-grid img {
+            width: 100%; /* Ensure images fit within grid cells */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
 </head>
 <body>
-    <h1> The West Coast is The Best Coast </h1>
+    <h1> The West Coast is The Coast For Vacation </h1>
     
+    <div class="image-grid">
+        <img src="img/sd_sf_sun.png" alt="Image 1">
+        <img src="img/M-ny-sun.png" alt="Image 2">
+        <img src="img/sd_sf_rain.png" alt="Image 3">
+        <img src="img/m-sf-rain.png" alt="Image 4">
+    </div>
+
 </body>
 </html>
